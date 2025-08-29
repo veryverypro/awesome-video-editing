@@ -52,6 +52,12 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 ## ✂️ Video Editing
 
 ### 2025 Latest Breakthroughs
+- **[VACE] All-in-One Video Creation and Editing** (Mar 2025) [[Paper]](https://arxiv.org/abs/2503.07598)
+  - *Unified framework for video creation and editing using Diffusion Transformers*
+
+- **[RF-Solver-Edit] Taming Rectified Flow for Inversion and Editing** (ICML 2025) [[Paper]](https://arxiv.org/abs/2411.04746) [[Code]](https://github.com/wangjiangshan0725/RF-Solver-Edit)
+  - *Training-free sampler for FLUX and OpenSora video editing with enhanced inversion precision*
+
 - **[FADE] Frequency-Aware Diffusion Model Factorization for Video Editing** (Jun 2025) [[Paper]](https://arxiv.org/abs/2506.05934)
   - *Training-free video editing leveraging frequency-aware factorization of pre-trained video diffusion models*
 
@@ -64,15 +70,21 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 - **[WeatherWeaver] Controllable Weather Synthesis and Removal** (Jul 2025) [[Paper]](https://arxiv.org/abs/2505.00704)
   - *Video diffusion model for synthesizing and removing weather effects without 3D modeling*
 
+- **[Video Motion Transfer with Diffusion Transformers]** (Dec 2024) [[Paper]](https://arxiv.org/html/2412.07776v1)
+  - *Training-free motion transfer method for video DiTs with zero-shot synthesis capabilities*
+
+- **[AsymRnR] Video Diffusion Transformers Acceleration** (Dec 2024) [[Paper]](https://arxiv.org/html/2412.11706v1)
+  - *Training-free approach to accelerate video DiTs with asymmetric reduction and restoration*
+
 ### DiT-Based Editing (2024)
 - **[DiT4Edit] Diffusion Transformer for Image Editing** (Nov 2024) [[Paper]](https://arxiv.org/abs/2411.03286)
   - *First diffusion transformer-based image editing framework*
 
-- **[VideoDirector] Precise Video Editing via Text-to-Video Models** (Nov 2024) [[Paper]](https://arxiv.org/abs/2411.17592)
-  - *Precise video editing via text-to-video models*
+- **[VideoDirector] Precise Video Editing via Text-to-Video Models** (CVPR 2025) [[Paper]](https://arxiv.org/abs/2411.17592)
+  - *Precise video editing via text-to-video models addressing color flickering and content distortion*
 
-- **[Re-Attentional Controllable Video Diffusion Editing]** (Dec 2024) [[Paper]](https://arxiv.org/html/2412.11706v1)
-  - *Re-attentional control for video diffusion editing*
+- **[Object-Centric Diffusion] Efficient Video Editing** (ECCV 2024) [[Paper]](https://arxiv.org/html/2401.05735)
+  - *Object-centric sampling and token merging for 10x speed-up in video editing*
 
 ### Text-Driven Editing (2024)
 - **[TokenFlow] Consistent Diffusion Features for Consistent Video Editing** (ICLR 2024) [[Paper]](https://arxiv.org/abs/2307.10373) [[Code]](https://github.com/omerbt/TokenFlow)
@@ -140,7 +152,14 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 
 ## 🔧 Open Source Projects
 
-### Video Editing Frameworks
+### 2025 Video Editing Frameworks
+- **[Diffusion as Shader]** (SIGGRAPH 2025) [[Code]](https://github.com/IGL-HKUST/DiffusionAsShader)
+  - *3D-aware video diffusion for versatile video generation control*
+
+- **[EditDuet] Multi-Agent System for Video Non-Linear Editing** (SIGGRAPH 2025)
+  - *Multi-agent system approach for advanced video editing workflows*
+
+### Video Editing Frameworks (2024)
 - **[DynamiCrafter]** (ECCV 2024 Oral) [[Code]](https://github.com/Doubiiu/DynamiCrafter)
   - *Open-domain image animation generation with video diffusion priors*
 
@@ -175,10 +194,15 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 - **Pika Labs** - Consumer-friendly with creative video effects and editing
 - **Adobe Firefly Video** - Enterprise video editing with AI assistance
 
-### Open Source Video Editing Tools
+### Open Source Video Editing Tools (2025)
+- **RF-Solver-Edit** - FLUX and OpenSora video editing with enhanced inversion
+- **VACE** - All-in-one video creation and editing framework
+- **AsymRnR** - Accelerated video DiTs with asymmetric processing
+
+### Open Source Video Editing Tools (2024)
 - **TokenFlow** - Consistent video editing through diffusion features
 - **FateZero** - Zero-shot text-based video editing
-- **DynamiCrafter** - Image-to-video animation for editing workflows
+- **Object-Centric Diffusion** - 10x faster video editing with object-centric sampling
 
 ---
 
