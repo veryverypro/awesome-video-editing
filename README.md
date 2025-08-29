@@ -1,6 +1,6 @@
-# Awesome DiT Video Generation & Editing Papers
+# Awesome DiT Video Editing Papers
 
-A curated list of research papers on Diffusion Transformer (DiT) based video generation and editing (2024-2025)
+A curated list of research papers on Diffusion Transformer (DiT) based video editing (2024-2025)
 
 ## 📝 Key Insights for Research
 
@@ -176,4 +176,4 @@ A curated list of research papers on Diffusion Transformer (DiT) based video gen
 ---
 
 *Last Updated: 2025-08-29*
-*Research Scope: DiT-based video generation and editing research 2024-2025*
+*Research Scope: DiT-based video editing research 2024-2025*
