@@ -73,9 +73,6 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 - **[Video Motion Transfer with Diffusion Transformers]** (Dec 2024) [[Paper]](https://arxiv.org/html/2412.07776v1)
   - *Training-free motion transfer method for video DiTs with zero-shot synthesis capabilities*
 
-- **[AsymRnR] Video Diffusion Transformers Acceleration** (Dec 2024) [[Paper]](https://arxiv.org/html/2412.11706v1)
-  - *Training-free approach to accelerate video DiTs with asymmetric reduction and restoration*
-
 ### DiT-Based Editing (2024)
 - **[DiT4Edit] Diffusion Transformer for Image Editing** (Nov 2024) [[Paper]](https://arxiv.org/abs/2411.03286)
   - *First diffusion transformer-based image editing framework*
@@ -197,7 +194,6 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 ### Open Source Video Editing Tools (2025)
 - **RF-Solver-Edit** - FLUX and OpenSora video editing with enhanced inversion
 - **VACE** - All-in-one video creation and editing framework
-- **AsymRnR** - Accelerated video DiTs with asymmetric processing
 
 ### Open Source Video Editing Tools (2024)
 - **TokenFlow** - Consistent video editing through diffusion features
