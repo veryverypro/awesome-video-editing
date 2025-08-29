@@ -21,13 +21,12 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 ## 📚 Table of Contents
 
 - [📝 Key Insights for Research](#key-insights-for-research)
-- [🎬 Video Generation](#video-generation)
 - [✂️ Video Editing](#video-editing)
 - [🎨 Video Inpainting](#video-inpainting)
 - [📊 Survey Papers](#survey-papers)
 - [🔧 Open Source Projects](#open-source-projects)
-- [🎯 Research Directions](#research-directions)
-- [📈 Market Leaders](#market-leaders)
+- [🎯 Video Editing Research Directions](#video-editing-research-directions)
+- [📈 Video Editing Tools](#video-editing-tools)
 - [🔗 Useful Resources](#useful-resources)
 
 ---
@@ -111,59 +110,45 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 
 ## 🔧 Open Source Projects
 
-### Major Open Source Models
-- **[Open-Sora Plan]** [[Code]](https://github.com/hpcaitech/Open-Sora) [[Paper]](https://arxiv.org/abs/2412.00131)
-  - *Open-source large-scale video generation model supporting 2s~15s, 144p-720p, arbitrary aspect ratios*
-  - *Open-Sora 2.0 (11B) achieves performance comparable to HunyuanVideo with $300K budget*
-
-- **[CogVideoX]** [[Code]](https://github.com/zai-org/CogVideo)
-  - *Zhipu AI's open-source Sora alternative supporting text-to-video, video continuation, image-to-video*
-  - *CogVideoX-5B runs on consumer-grade GPUs*
-
+### Video Editing Frameworks
 - **[DynamiCrafter]** (ECCV 2024 Oral) [[Code]](https://github.com/Doubiiu/DynamiCrafter)
   - *Open-domain image animation generation with video diffusion priors*
 
-### Specialized Tools
-- **[MagicTime]** (TPAMI 2025) [[Code]](https://github.com/PKU-YuanGroup/MagicTime)
-  - *Time-lapse video generation models as metamorphic simulators for physical phenomena*
-
+### Video Understanding & Analysis
 - **[Video-LLaVA]** (EMNLP 2024) [[Code]](https://github.com/PKU-YuanGroup/Video-LLaVA)
-  - *Large-scale multimodal model with unified visual representation*
-
-- **[StreamingT2V]** (CVPR 2025) [[Code]](https://github.com/Picsart-AI-Research/StreamingT2V)
-  - *Consistent, dynamic, and extendable long video generation*
+  - *Large-scale multimodal model with unified visual representation for video understanding*
 
 ---
 
-## 🎯 Research Directions
+## 🎯 Video Editing Research Directions
 
-### Technical Trends
-1. **From U-Net to Transformer**: DiT architecture shows better scalability and long-range dependency modeling in video generation
-2. **Spatiotemporal Modeling**: Better temporal consistency through spacetime patch processing
+### Technical Trends in Video Editing
+1. **From U-Net to Transformer**: DiT architecture shows better scalability and long-range dependency modeling in video editing tasks
+2. **Spatiotemporal Consistency**: Better temporal consistency through spacetime patch processing in editing workflows
 3. **Zero-shot Editing**: Rapid development of training-free video editing techniques
-4. **Efficiency Optimization**: Techniques like pyramidal flow matching significantly reduce computational costs
-5. **Multimodal Fusion**: Unified representation learning for text, images, and videos
+4. **Attention-based Control**: Precise editing control through attention mechanism manipulation
+5. **Multimodal Conditioning**: Text, image, and trajectory-guided video editing
 
-### Application Areas
-- **Long Video Generation** (up to 2 minutes)
-- **High Resolution Generation** (up to 1080p)
-- **Physical Phenomena Simulation** (time-lapse videos, physical transformations)
-- **Audio-Visual Synchronized Generation**
-- **3D Consistent Modeling**
+### Video Editing Applications
+- **Text-driven Video Editing** (modify content based on text prompts)
+- **Video Inpainting & Object Removal** (fill missing regions, remove unwanted objects)
+- **Style Transfer & Appearance Editing** (change visual style while preserving motion)
+- **Motion Control & Animation** (modify object trajectories and movements)
+- **Temporal Consistency Maintenance** (ensure coherent edits across frames)
 
 ---
 
-## 📈 Market Leaders (2024)
+## 📈 Video Editing Tools (2024)
 
-### Commercial Products
-- **OpenAI Sora** - Industry benchmark, highest quality
-- **RunwayML Gen-3/Gen-4** - Professional-grade video editing
-- **Pika Labs** - Consumer-friendly with creative effects
+### Commercial Video Editing Tools
+- **RunwayML Gen-3/Gen-4** - Professional-grade AI video editing capabilities
+- **Pika Labs** - Consumer-friendly with creative video effects and editing
+- **Adobe Firefly Video** - Enterprise video editing with AI assistance
 
-### Open Source Alternatives
-- **CogVideoX** - Best open-source alternative
-- **Open-Sora Plan** - Fully open-source with performance close to commercial products
-- **Pyramid Flow** - Efficient computation, open-source available
+### Open Source Video Editing Tools
+- **TokenFlow** - Consistent video editing through diffusion features
+- **FateZero** - Zero-shot text-based video editing
+- **DynamiCrafter** - Image-to-video animation for editing workflows
 
 ---
 
