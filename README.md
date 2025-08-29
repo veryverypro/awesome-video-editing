@@ -34,17 +34,30 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 
 ## ✂️ Video Editing
 
-### DiT-Based Editing
+### 2025 Latest Breakthroughs
+- **[FADE] Frequency-Aware Diffusion Model Factorization for Video Editing** (Jun 2025) [[Paper]](https://arxiv.org/abs/2506.05934)
+  - *Training-free video editing leveraging frequency-aware factorization of pre-trained video diffusion models*
+
+- **[DAPE] Dual-Stage Parameter-Efficient Fine-Tuning for Consistent Video Editing** (May 2025) [[Paper]](https://arxiv.org/abs/2505.07057)
+  - *High-quality yet cost-effective two-stage parameter-efficient fine-tuning framework for video editing*
+
+- **[FlowV2V] Consistent Video Editing as Flow-Driven Image-to-Video Generation** (Jun 2025) [[Paper]](https://arxiv.org/abs/2506.07713)
+  - *Re-investigating video editing as flow-driven I2V generation for better motion modeling*
+
+- **[WeatherWeaver] Controllable Weather Synthesis and Removal** (Jul 2025) [[Paper]](https://arxiv.org/abs/2505.00704)
+  - *Video diffusion model for synthesizing and removing weather effects without 3D modeling*
+
+### DiT-Based Editing (2024)
 - **[DiT4Edit] Diffusion Transformer for Image Editing** (Nov 2024) [[Paper]](https://arxiv.org/abs/2411.03286)
   - *First diffusion transformer-based image editing framework*
 
 - **[VideoDirector] Precise Video Editing via Text-to-Video Models** (Nov 2024) [[Paper]](https://arxiv.org/abs/2411.17592)
   - *Precise video editing via text-to-video models*
 
-- **[DiTCtrl] Attention Control in Multi-Modal Diffusion Transformer** (Dec 2024)
-  - *Attention control in multi-modal diffusion transformers for tuning-free multi-prompt long video generation*
+- **[Re-Attentional Controllable Video Diffusion Editing]** (Dec 2024) [[Paper]](https://arxiv.org/html/2412.11706v1)
+  - *Re-attentional control for video diffusion editing*
 
-### Text-Driven Editing
+### Text-Driven Editing (2024)
 - **[TokenFlow] Consistent Diffusion Features for Consistent Video Editing** (ICLR 2024) [[Paper]](https://arxiv.org/abs/2307.10373) [[Code]](https://github.com/omerbt/TokenFlow)
   - *Achieving video editing consistency through diffusion feature consistency*
 
@@ -54,17 +67,14 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 - **[CCEdit] Creative and Controllable Video Editing via Diffusion Models** (CVPR 2024)
   - *Creative and controllable video editing via diffusion models*
 
-### Motion & Style Control
+### Motion & Style Control (2024)
 - **[Customize-A-Video] One-Shot Motion Customization** (Feb 2024) [[Paper]](https://arxiv.org/html/2402.14780v1)
   - *One-shot motion customization for text-to-video diffusion models*
 
 - **[Tune-A-Video] One-Shot Tuning of Image Diffusion Models** (ICCV 2023) [[Code]](https://github.com/showlab/Tune-A-Video)
   - *One-shot tuning of image diffusion models for text-to-video generation*
 
-### Advanced Editing Techniques
-- **[FADE] Frequency-Aware Diffusion Model Factorization for Video Editing** (Jun 2025) [[Paper]](https://arxiv.org/abs/2506.05934)
-  - *Frequency-aware diffusion model factorization for video editing*
-
+### Advanced Editing Techniques (2024)
 - **[FlexEdit] Flexible and Controllable Diffusion-based Object-centric Image Editing** (Aug 2024) [[Paper]](https://arxiv.org/abs/2408.12429)
   - *Flexible and controllable diffusion-based object-centric image editing*
 
@@ -79,6 +89,12 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 - **[VipDiff] Training-free Video Inpainting via Denoising Diffusion Models** (Jan 2025) [[Paper]](https://arxiv.org/html/2501.12267v1)
   - *Training-free video inpainting diffusion model*
 
+- **[ObjFiller-3D] Consistent Multi-view 3D Inpainting via Video Diffusion Models** (Aug 2025) [[Paper]](https://arxiv.org/html/2508.18271)
+  - *Consistent multi-view 3D inpainting via video diffusion models*
+
+- **[VideoPainter] Any-length Video Inpainting and Editing** (Mar 2025) [[Paper]](https://arxiv.org/html/2503.05639v1)
+  - *Supports arbitrary-length video inpainting and editing, compatible with T2V and I2V DiT architectures*
+
 ### 2024 Core Works
 - **[Video Diffusion Models are Strong Video Inpainter]** (Aug 2024) [[Paper]](https://arxiv.org/abs/2408.11402)
   - *First effective integration of image-to-video diffusion models into video inpainting tasks*
@@ -89,9 +105,6 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 - **[Semantically Consistent Video Inpainting with Conditional Diffusion Models]** (May 2024) [[Paper]](https://arxiv.org/abs/2405.00251)
   - *Semantically consistent video inpainting with conditional diffusion models*
 
-### Specialized Applications
-- **[ObjFiller-3D] Consistent Multi-view 3D Inpainting via Video Diffusion Models** (Aug 2025) [[Paper]](https://arxiv.org/html/2508.18271)
-  - *Consistent multi-view 3D inpainting via video diffusion models*
 
 ---
 
