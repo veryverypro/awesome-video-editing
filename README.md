@@ -2,71 +2,36 @@
 
 A curated list of research papers on Diffusion Transformer (DiT) based video generation and editing (2024-2025)
 
+## 📝 Key Insights for Research
+
+### Technical Advantages
+1. **DiT vs U-Net**: DiT performs better in long-range dependency modeling and scalability
+2. **Temporal Consistency**: Achieved through attention mechanisms and feature consistency constraints
+3. **Computational Efficiency**: Pyramidal architecture and dynamic resolution adjustment significantly reduce costs
+4. **Control Precision**: Trajectory guidance and multimodal conditions provide more precise control
+
+### Research Opportunities
+1. **DiT Video Editing Specialization**: Current DiT models mainly focus on generation, editing applications are relatively limited
+2. **Real-time Editing**: Most methods still require long processing times
+3. **Fine-grained Control**: Object-level and region-level precise editing still has room for improvement
+4. **Physical Consistency**: Modeling of complex physical phenomena still needs improvement
+
+---
+
 ## 📚 Table of Contents
 
-- [🏗️ Foundational Models](#foundational-models)
+- [📝 Key Insights for Research](#key-insights-for-research)
 - [🎬 Video Generation](#video-generation)
 - [✂️ Video Editing](#video-editing)
 - [🎨 Video Inpainting](#video-inpainting)
 - [📊 Survey Papers](#survey-papers)
 - [🔧 Open Source Projects](#open-source-projects)
+- [🎯 Research Directions](#research-directions)
+- [📈 Market Leaders](#market-leaders)
+- [🔗 Useful Resources](#useful-resources)
 
 ---
 
-## 🏗️ Foundational Models
-
-### Core DiT Architecture
-- **[DiT] Scalable Diffusion Models with Transformers** (2022) [[Paper]](https://arxiv.org/abs/2212.09748)
-  - *Peebles et al.* - Foundational architecture for Diffusion Transformers
-
-### Major Breakthroughs
-- **[Sora] Video generation models as world simulators** (OpenAI, 2024) [[Paper]](https://openai.com/index/video-generation-models-as-world-simulators/)
-  - *OpenAI* - Breakthrough DiT-based video generation model, up to 1 minute 1080p video
-
----
-
-## 🎬 Video Generation
-
-### 2025 Latest
-- **[DyDiT++] Dynamic Diffusion Transformers for Efficient Visual Generation** (Apr 2025) [[Paper]](https://arxiv.org/abs/2504.06803)
-  - *Dynamic adjustment of timestep and spatial dimensions for improved computational efficiency*
-
-- **[RelightVid] Temporal-Consistent Diffusion Model for Video Relighting** (Jan 2025) [[Paper]](https://arxiv.org/html/2501.16330)
-  - *Temporal-consistent video relighting using diffusion models*
-
-- **[VideoPainter] Any-length Video Inpainting and Editing** (Mar 2025) [[Paper]](https://arxiv.org/html/2503.05639v1)
-  - *Supports arbitrary-length video inpainting and editing, compatible with T2V and I2V DiT architectures*
-
-### 2024 Core Papers
-- **[Tora] Trajectory-oriented Diffusion Transformer for Video Generation** (Jul 2024) [[Paper]](https://arxiv.org/abs/2407.21705)
-  - *First trajectory-oriented DiT framework integrating textual, visual, and trajectory conditions*
-
-- **[CogVideoX] Text-to-Video Diffusion Models with An Expert Transformer** (Aug 2024) [[Paper]](https://arxiv.org/abs/2408.06072)
-  - *Large-scale text-to-video generation model supporting 10-second 768×1360 resolution videos*
-
-- **[DiVE] DiT-based Video Generation with Enhanced Control** (Sep 2024) [[Paper]](https://www.aimodels.fyi/papers/arxiv/dive-dit-based-video-generation-enhanced-control)
-  - *Enhanced control DiT video generation with spatial-temporal conditioning and video editing interface*
-
-- **[AV-DiT] Efficient Audio-Visual Diffusion Transformer** (Jun 2024) [[Paper]](https://openreview.net/forum?id=FE6zflN5G5)
-  - *Efficient DiT model for synchronized audio-visual generation*
-
-- **[GenTron] Diffusion Transformers for Image and Video Generation** (CVPR 2024) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_GenTron_Diffusion_Transformers_for_Image_and_Video_Generation_CVPR_2024_paper.pdf)
-  - *Diffusion transformers for image and video generation*
-
-- **[VDT] General-purpose Video Diffusion Transformers via Mask Modeling** (ICLR 2024) [[Code]](https://github.com/RERV/VDT)
-  - *General-purpose video diffusion transformers based on mask modeling*
-
-- **[Latte] Latent Diffusion Transformer for Video Generation** (TMLR 2025) [[Code]](https://github.com/Vchitect/Latte)
-  - *Latent diffusion transformer for video generation*
-
-### Flow Matching Based
-- **[Pyramid Flow] Pyramidal Flow Matching for Efficient Video Generative Modeling** (ICLR 2025) [[Paper]](https://arxiv.org/abs/2410.05954) [[Code]](https://github.com/jy0205/Pyramid-Flow)
-  - *Flow matching based pyramidal video generation with 4x computational efficiency improvement*
-
-- **[StreamDiT] Real-Time Streaming Text-to-Video Generation** (Jul 2025) [[Paper]](https://arxiv.org/abs/2507.03745)
-  - *Real-time streaming text-to-video generation*
-
----
 
 ## ✂️ Video Editing
 
@@ -199,22 +164,6 @@ A curated list of research papers on Diffusion Transformer (DiT) based video gen
 - **CogVideoX** - Best open-source alternative
 - **Open-Sora Plan** - Fully open-source with performance close to commercial products
 - **Pyramid Flow** - Efficient computation, open-source available
-
----
-
-## 📝 Key Insights for Research
-
-### Technical Advantages
-1. **DiT vs U-Net**: DiT performs better in long-range dependency modeling and scalability
-2. **Temporal Consistency**: Achieved through attention mechanisms and feature consistency constraints
-3. **Computational Efficiency**: Pyramidal architecture and dynamic resolution adjustment significantly reduce costs
-4. **Control Precision**: Trajectory guidance and multimodal conditions provide more precise control
-
-### Research Opportunities
-1. **DiT Video Editing Specialization**: Current DiT models mainly focus on generation, editing applications are relatively limited
-2. **Real-time Editing**: Most methods still require long processing times
-3. **Fine-grained Control**: Object-level and region-level precise editing still has room for improvement
-4. **Physical Consistency**: Modeling of complex physical phenomena still needs improvement
 
 ---
 
