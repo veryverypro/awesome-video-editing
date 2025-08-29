@@ -18,34 +18,41 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 ## 🎯 Video Editing Research Directions
 
 ### Technical Trends in Video Editing
-1. **From U-Net to Transformer**: DiT architecture shows better scalability and long-range dependency modeling in video editing tasks
-2. **Spatiotemporal Consistency**: Better temporal consistency through spacetime patch processing in editing workflows
-3. **Zero-shot Editing**: Rapid development of training-free video editing techniques
-4. **Attention-based Control**: Precise editing control through attention mechanism manipulation
-5. **Multimodal Conditioning**: Text, image, and trajectory-guided video editing
+1. **Hybrid Training Strategies**: Evolution from training-free methods (TokenFlow, FateZero) to parameter-efficient fine-tuning (DAPE) and unified frameworks (VACE)
+2. **Flow and Motion Modeling**: Integration of optical flow for temporal coherence (FlowV2V) and motion transfer (Video Motion Transfer)
+3. **Frequency Domain Processing**: Spectrum-guided approaches for improved editing quality without training (FADE)
+4. **Object-Centric Processing**: Region-specific computational allocation achieving 10x efficiency gains (Object-Centric Diffusion)
+5. **Inversion Precision Enhancement**: Advanced solvers improving reconstruction accuracy for rectified flow models (RF-Solver-Edit)
+6. **Attention Fusion Mechanisms**: Zero-shot editing through attention map manipulation and feature propagation
+7. **Domain-Specific Specialization**: Targeted solutions for specific editing tasks (WeatherWeaver for weather effects)
 
 ### Video Editing Applications
-- **Text-driven Video Editing** (modify content based on text prompts)
-- **Video Inpainting & Object Removal** (fill missing regions, remove unwanted objects)
-- **Style Transfer & Appearance Editing** (change visual style while preserving motion)
-- **Motion Control & Animation** (modify object trajectories and movements)
-- **Temporal Consistency Maintenance** (ensure coherent edits across frames)
+- **Text-driven Content Modification** (TokenFlow, FateZero, VideoDirector)
+- **Video Inpainting & Object Removal** (DiffuEraser, VipDiff, VideoPainter)
+- **Domain-Specific Editing** (WeatherWeaver for weather effects, specialized scenarios)
+- **Motion Transfer & Animation** (Video Motion Transfer, Customize-A-Video)
+- **Multi-Task Unified Editing** (VACE for creation and editing integration)
+- **Efficiency-Optimized Editing** (Object-Centric Diffusion for 10x speedup)
+- **High-Precision Reconstruction** (RF-Solver-Edit for inversion accuracy)
 
 ---
 
 ## 📝 Key Insights for Research
 
 ### Technical Advantages
-1. **DiT vs U-Net**: DiT performs better in long-range dependency modeling and scalability
-2. **Temporal Consistency**: Achieved through attention mechanisms and feature consistency constraints
-3. **Computational Efficiency**: Pyramidal architecture and dynamic resolution adjustment significantly reduce costs
-4. **Control Precision**: Trajectory guidance and multimodal conditions provide more precise control
+1. **Architecture Flexibility**: Both DiT (VACE, RF-Solver-Edit) and U-Net (FateZero, Object-Centric) architectures show effectiveness with different optimization strategies
+2. **Training Efficiency**: Multiple approaches from zero-shot (TokenFlow, FateZero) to parameter-efficient fine-tuning (DAPE) reduce training costs
+3. **Computational Optimization**: Object-centric processing (10x speedup) and frequency-domain methods (FADE) significantly improve efficiency
+4. **Temporal Coherence**: Advanced consistency through flow modeling, attention propagation, and feature matching across frames
+5. **Reconstruction Fidelity**: Enhanced inversion techniques (RF-Solver-Edit) enable higher-quality editing results
 
 ### Research Opportunities
-1. **DiT Video Editing Specialization**: Current DiT models mainly focus on generation, editing applications are relatively limited
-2. **Real-time Editing**: Most methods still require long processing times
-3. **Fine-grained Control**: Object-level and region-level precise editing still has room for improvement
-4. **Physical Consistency**: Modeling of complex physical phenomena still needs improvement
+1. **Cross-Task Unification**: VACE demonstrates potential for unified creation and editing frameworks, but more comprehensive solutions needed
+2. **Real-time Performance**: Despite efficiency improvements (Object-Centric Diffusion's 10x speedup), most methods still require optimization for real-time applications
+3. **Architecture-Specific Optimization**: Limited DiT-specific editing methods compared to U-Net approaches, opportunity for transformer-native techniques
+4. **Advanced Motion Control**: Beyond basic motion transfer, need for complex physics-aware and multi-object interaction modeling
+5. **Cross-Domain Generalization**: WeatherWeaver shows domain-specific success, opportunity for broader cross-domain editing capabilities
+6. **Quality-Efficiency Trade-offs**: Balance between editing quality and computational cost remains challenging across different hardware constraints
 
 ---
 
@@ -163,42 +170,6 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 ### Video Understanding & Analysis
 - **[Video-LLaVA]** (EMNLP 2024) [[Code]](https://github.com/PKU-YuanGroup/Video-LLaVA)
   - *Large-scale multimodal model with unified visual representation for video understanding*
-
----
-
-## 🎯 Video Editing Research Directions
-
-### Technical Trends in Video Editing
-1. **From U-Net to Transformer**: DiT architecture shows better scalability and long-range dependency modeling in video editing tasks
-2. **Spatiotemporal Consistency**: Better temporal consistency through spacetime patch processing in editing workflows
-3. **Zero-shot Editing**: Rapid development of training-free video editing techniques
-4. **Attention-based Control**: Precise editing control through attention mechanism manipulation
-5. **Multimodal Conditioning**: Text, image, and trajectory-guided video editing
-
-### Video Editing Applications
-- **Text-driven Video Editing** (modify content based on text prompts)
-- **Video Inpainting & Object Removal** (fill missing regions, remove unwanted objects)
-- **Style Transfer & Appearance Editing** (change visual style while preserving motion)
-- **Motion Control & Animation** (modify object trajectories and movements)
-- **Temporal Consistency Maintenance** (ensure coherent edits across frames)
-
----
-
-## 📈 Video Editing Tools (2024)
-
-### Commercial Video Editing Tools
-- **RunwayML Gen-3/Gen-4** - Professional-grade AI video editing capabilities
-- **Pika Labs** - Consumer-friendly with creative video effects and editing
-- **Adobe Firefly Video** - Enterprise video editing with AI assistance
-
-### Open Source Video Editing Tools (2025)
-- **RF-Solver-Edit** - FLUX and OpenSora video editing with enhanced inversion
-- **VACE** - All-in-one video creation and editing framework
-
-### Open Source Video Editing Tools (2024)
-- **TokenFlow** - Consistent video editing through diffusion features
-- **FateZero** - Zero-shot text-based video editing
-- **Object-Centric Diffusion** - 10x faster video editing with object-centric sampling
 
 ---
 
