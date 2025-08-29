@@ -2,6 +2,37 @@
 
 A curated list of research papers on Diffusion Transformer (DiT) based video editing (2024-2025)
 
+## 📚 Table of Contents
+
+- [🎯 Video Editing Research Directions](#video-editing-research-directions)
+- [📝 Key Insights for Research](#key-insights-for-research)
+- [✂️ Video Editing](#video-editing)
+- [🎨 Video Inpainting](#video-inpainting)
+- [📊 Survey Papers](#survey-papers)
+- [🔧 Open Source Projects](#open-source-projects)
+- [📈 Video Editing Tools](#video-editing-tools)
+- [🔗 Useful Resources](#useful-resources)
+
+---
+
+## 🎯 Video Editing Research Directions
+
+### Technical Trends in Video Editing
+1. **From U-Net to Transformer**: DiT architecture shows better scalability and long-range dependency modeling in video editing tasks
+2. **Spatiotemporal Consistency**: Better temporal consistency through spacetime patch processing in editing workflows
+3. **Zero-shot Editing**: Rapid development of training-free video editing techniques
+4. **Attention-based Control**: Precise editing control through attention mechanism manipulation
+5. **Multimodal Conditioning**: Text, image, and trajectory-guided video editing
+
+### Video Editing Applications
+- **Text-driven Video Editing** (modify content based on text prompts)
+- **Video Inpainting & Object Removal** (fill missing regions, remove unwanted objects)
+- **Style Transfer & Appearance Editing** (change visual style while preserving motion)
+- **Motion Control & Animation** (modify object trajectories and movements)
+- **Temporal Consistency Maintenance** (ensure coherent edits across frames)
+
+---
+
 ## 📝 Key Insights for Research
 
 ### Technical Advantages
@@ -17,20 +48,6 @@ A curated list of research papers on Diffusion Transformer (DiT) based video edi
 4. **Physical Consistency**: Modeling of complex physical phenomena still needs improvement
 
 ---
-
-## 📚 Table of Contents
-
-- [📝 Key Insights for Research](#key-insights-for-research)
-- [✂️ Video Editing](#video-editing)
-- [🎨 Video Inpainting](#video-inpainting)
-- [📊 Survey Papers](#survey-papers)
-- [🔧 Open Source Projects](#open-source-projects)
-- [🎯 Video Editing Research Directions](#video-editing-research-directions)
-- [📈 Video Editing Tools](#video-editing-tools)
-- [🔗 Useful Resources](#useful-resources)
-
----
-
 
 ## ✂️ Video Editing
 
